@@ -25,4 +25,4 @@ var server = http.createServer(function(request, response) {
   }
 });
 
-server.listen(9838);
+server.listen(9838, 'localhost');
